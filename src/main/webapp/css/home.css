@@ -1,0 +1,132 @@
+@charset "ISO-8859-1";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header {
+	height: 5vh;
+	width: 100vw;
+	background-color: blue;
+}
+
+body {
+	background-image: url(Expense_tracker/src/main/webapp/img/benjamin-voros-phIFdC6lA4E-unsplash.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.mainBox {
+	height: auto;
+	width: 35vw;
+	border: 1px solid black;
+	position: relative;
+	transform: translate(-50%, 40%);
+	left: 50%;
+	background: rgba(255, 255, 255, 0.1);
+	/* Transparent background */
+	backdrop-filter: blur(10px);
+	/* Blur effect */
+	-webkit-backdrop-filter: blur(10px);
+	/* Safari support */
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	border-radius: 10px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.moneyBox {
+	height: 5vh;
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+
+}
+
+.money {
+	height: 100%;
+	width: 30%;
+	margin-right: 10px;
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.inBox {
+	min-height: 48vh;
+	width: 100%;
+}
+
+.headingBox {
+	height: 5vh;
+	width: 100%;
+	display: flex;
+	margin: 10px 0;
+	color: white;
+
+}
+
+.subBox1,
+.subBox2,
+.subBox3 {
+	height: 5vh;
+	width: 33%;
+	border: 1px solid rgb(245, 241, 241);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-left: 5px;
+	font-size: 1.1em;
+	font-weight: 800;
+}
+
+.contentBox {
+	height: 5vh;
+	width: 100%;
+	display: flex;
+	margin: 10px 0;
+	color: white;
+}
+
+.subBox4,
+.subBox5 {
+	height: 5vh;
+	width: 33%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-left: 5px;
+	font-size: 1.1em;
+	border: 1px solid #9B76A0;
+}
+
+.subBox6 {
+	height: 5vh;
+	width: 33%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-left: 5px;
+	font-size: 1.1em;
+	border: 1px solid #9B76A0;
+	color: red;
+}
+
+.submit {
+	height: 7vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.subBtn {
+	height: 5vh;
+	width: 10vw;
+	border-radius: 10px;
+	font-size: 1.1em;
+	background-color: #9B76A0;
+	color: white;
+	border: 1px solid #9B76A0;
+}

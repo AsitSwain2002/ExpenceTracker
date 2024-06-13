@@ -1,0 +1,146 @@
+@charset "ISO-8859-1";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(Expense_tracker/src/main/webapp/img/benjamin-voros-phIFdC6lA4E-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header {
+    height: 5vh;
+    width: 100vw;
+    background-color: blue;
+}
+.mainContainer {
+    height: 35vh;
+    width: 40vw;
+    border: 1px solid black;
+    position: relative;
+    transform: translate(-50%, 50%);
+    left: 50%;
+    top: 50%;
+    background: rgba(255, 255, 255, 0.1); /* Transparent background */
+    backdrop-filter: blur(10px); /* Blur effect */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+.inBox {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+.addMoney {
+    height: 40%;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.moneyInput {
+    height: 5vh;
+    width: 19vw;
+    outline: none;
+    padding-left: 15px;
+    border: 2px solid rgb(236, 238, 238);
+    background-color: transparent;
+    border-radius: 2px 20px 6px 20px;
+    color: white;
+    font-size: 17px;
+}
+.moneyInput::placeholder {
+    color: white;
+}
+.add {
+    height: 5vh;
+    width: 7vw;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 2px 20px 6px 20px;
+    margin-left: 10px;
+    background-color: transparent;
+    color: rgb(247, 247, 248);
+    border: 1px solid white;
+    cursor: pointer;
+}
+.Content {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    margin-bottom: 3em;
+}
+.ContentInput1 {
+    height: 40%;
+    width: 20%;
+    border: 1px solid #9B76A0;
+}
+.ContentInput2 {
+    height: 40%;
+    width: 58%;
+    border: 2px solid #9B76A0;
+    margin: 0 5px 0 5px;
+}
+.ContentInput3 {
+    height: 40%;
+    width: 20%;
+    border: 1px solid #9B76A0;
+}
+.contentSearch1 {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding-left: 7px;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+.contentSearch1::placeholder {
+    color: white;
+}
+.contentSearch2 {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding-left: 7px;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+.contentSearch2::placeholder {
+    color: white;
+}
+.contentSearch3 {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding-left: 7px;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+.contentSearch3::placeholder {
+    color: white;
+}
+.ContentInput4{
+    height: 30px;
+    width: 40%;
+    margin: auto;
+    border-radius: 30px;
+}
+.contentSearch4 {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding-left: 7px;
+    background-color: transparent;
+    color: rgb(9, 9, 9);
+    border-radius: 20px 2px 20px 6px;
+    border: 1px solid white;
+    font-size: 18px;
+}
+
